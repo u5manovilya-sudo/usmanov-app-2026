@@ -1,0 +1,41 @@
+# Зависимости
+node_modules/
+*/node_modules/
+
+# Переменные окружения
+.env
+*.env
+!*.env.example
+
+# Сборка
+build/
+dist/
+*/build/
+*/dist/
+
+# Логи
+*.log
+npm-debug.log*
+
+# Кэш
+.cache/
+.eslintcache
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Но НЕ игнорировать изображения!
+!client/public/images/**
+
+# Visual Studio
+.vs/
+*.vsidx
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vscode/
+.idea/
